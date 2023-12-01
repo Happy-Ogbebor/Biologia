@@ -4,30 +4,152 @@
 <head>
 <!-- questo è un commento-->
 <title>The BioW</title>
+<link rel="stylesheet" type="text/css" href="Stili.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
 <h2>The adventure in the magical word of living</h2>
 
 <section>
-<div>
+<!-- <div>
 	<div class="barraNaV">
-		<!--<a class="active" href="#home">Home</a>-->
+		<!--<a class="active" href="#home">Home</a>
 		<img src ="elicadeldna.jpg" height="80" width="80">
-		<button type="about">About</button>
+		<label type="about">About</label>
+			<select name="about" id="about">
+				<option value="BIO">BIO</option>
+				<option value="HOBBY">Hobby</option>
+				<option value="Scuola">Scuola</option>
+			</select>
 		<a href="#articoli">Tutti i articoli</a>
 		<input type="text" placeholder="Search..">
-		<button type="login">Login</button>
-	</div>
+		<button type="Ricerca">Search</button>
+	</div>-->
+	
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Articoli
+        </a>
+        <div class="dropdown">
+				<div class="dropdown-content">
+					<a href="#">Materie tecniche</a>
+					<a href="Tartaruga.html">Tartaruga</a>
+					<a href="#">Matematica</a>
+				</div>
+		</div>	
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+	
+	<!--<a class = Navbar href="Articolo.html">Articolo</a>-->
 </div>
 </section>
 
+
+
 <section>
+<!--<img src ="pesce.gif" height="550" width="1000">-->
 <img src ="biologia.jpg" height="550" width="1860">
 </section>
+<!--
+<section>
+<div class="FilterButtonsSelect FilterButtonsSelect--default">
+	<ul class="FilterButtonsSelect_filterlist">
+	<li>
+	<button data-event="fbs-filter_0-btn_openMenu" class="FilterButtonsSelect__filterItem FilterButtonsSelect__filterItem--active"> Autori e editori</button>
+	<h1 class="acc-hidden"> Autori e editori </h1>
+	</li>
+	<li>
+	<button data-event="fbs-filter_1-btn_openMenu" class="FilterButtonsSelect__filterItem FilterButtonsSelect__filterItem--active"> Collaboratori </button>
+	<h1 class="acc-hidden"> Collaboratori </h1>
+	</li>
+	</ul>
+	  <div parent-data-event="fbs" class="DropDown"><button class="DropDown__titleContainer is-filtered DropDown__titleContainer--hasValue">
+	  <div class="DropDown__selectedValue">Authors</div></button> <div class="DropDown__overlay is-hidden"></div> <div class="DropDown__menuWrapper"><button aria-label="Close" data-event="dropDown-button-close" class="DropDown__titleMobile"></button> <div class="DropDown__search" style="display:none"><button class="DropDown__search__icon DropDown__search__icon--search"></button> <input placeholder="Search..." class="DropDown__search__input" type="text"> <div class="DropDown__search__icon DropDown__search__icon--spinner" style="display:none"></div> <div class="DropDown__info" style="display:none">
+        No matches to your query could be found. Try another search term.
+      </div> 
+	  <div class="DropDown__error" style="display:none">
+        
+      </div>
+	  </div> 
+	  <ul class="DropDown__menu"> 
+	  <li class="DropDown__option DropDown__option--active DropDown__option--arrow-active">
+	  <button data-index="0" data-event="dropDown-btn_0-click" class="DropDown__option__button">Autori e editori</button>
+	  </li>
+	  <li class="DropDown__option"><button data-index="1" data-event="dropDown-btn_1-click" class="DropDown__option__button">Collaboratori</button>
+	  </li>
+	  </ul>
+	  </div>
+	  </div>
+	  </div>
+</section>
+-->
+
+
 
 <section>
+	<div class= "Tartaruga">
+		<form <!--class="sinistra"-->>
+			<img src ="aree-3.jpg" height="120" width="180">
+			<label href = "Tartaruga.html">Dannoso effetto della plastica nel mare</label>
+		</form>
+	</div>
 
+</section>
+
+
+
+<section>
+	<div class= "Atomo">
+		<form <!--class="destra"-->>
+			<img src ="biology.jpg" height="120" width="180">
+			<label href = "Tartaruga.html">la storia dell'Atomo</label>	
+		</form>
+	</div>
+</section>
+
+
+
+
+<section>
+	<div class= "Login">
+		<form>
+			<label>Name</label>
+			<input type = "text" id ="Name" class ="inputBox">
+			<br><br>
+			<label>LastName</label>
+			<input type= "text" id ="LName" class ="inputBox" class = "destra">
+			<br><br>
+			<label>Email</label>
+			<input type= "text" id ="LName" class ="inputBox">
+			<br><br>
+			<input type= "button" value = "subscribe" class ="inputBox">
+			<br><br>
+		</form>
+	</div>
 </section>
 
 </body>
