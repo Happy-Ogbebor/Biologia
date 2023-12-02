@@ -1,0 +1,24 @@
+/*
+//Creo un numero casuale per assegnarlo alle coordinate del immagine dello zombie
+Random Z1 = new Random(DateTime.Now.Second * DateTime.Now.Millisecond);
+ //Assegno le coordinate aggiornate all'immagine
+pbxZombie.Left = Z1.Next(1, 1000 - pbxZombie.Width);
+//pbxZombie.Top = Z1.Next(1, 300 - pbxZombie.Height);
+//Sposto contemporaneamente anche l'azione del sangue alle nuove coordinate
+pbxSangue.Left = pbxZombie.Left;
+//pbxSangue.Top = pbxZombie.Top;
+//Visualizzo lo zombie alle nuove coordinate
+pbxZombie.Visible = true;
+*/
+
+var images = [];
+var img1 = new Image();
+img1.src = "pesce.jpg";
+images.push(img1);
+var img = document.getElementById("img");
+var btnNextImg = document.getElementById("btnNextImage");
+var currentImageIndex = 0;
+btnNextImg.onclick = function () {
+  currentImageIndex = (currentImageIndex + 1) % images.length;
+  img.src = images[currentImageIndex].src;
+};

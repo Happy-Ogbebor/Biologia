@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!-- questo è un commento-->
+<title>The BioW|Tartarughe Marine</title>
+<link rel="stylesheet" type="text/css" href="stile.css">
+
+<section>
+<div class="barraNaV">
+<h1>Tartarughe</h1> 
+<a href="Biologia.html"><img src ="elicadeldna.jpg" height="80" width="80"></a>
+</div>
+</section>
+
+<section>
+<!-- questo è un commento-->
+<h2>Intro</h2>
+<p>Le tartarughe sono seriamente minacciate dalle attività umane in differenti stadi del loro ciclo vitale. 
+L’erosione delle spiagge sta inesorabilmente riducendo lo spazio idoneo per la nidificazione. 
+Inoltre, il calpestio dei bagnati e l’uso di mezzi pesanti per pulire le spiagge possono causare la distruzione di interi nidi. 
+L’inquinamento luminoso, è un’altra importante fonte di disturbo per le piccole tartarughe appena emerse dal nido, 
+che disorientate non riescono a trovare il mare.  
+Diverse le minacce, specialmente antropiche, che le tartarughe marine devono affrontare anche da adulte. 
+Nel Mediterraneo si sono accumulate circa 3.760 tonnellate di micro- e macro-plastica. 
+I diversi oggetti di plastica, e soprattutto le buste monouso, sono spesso ingerite dalle tartarughe perché scambiate per una preda. 
+Grandi rifiuti di plastica e loro agglomerati possono anche intrappolare le tartarughe sott’acqua, 
+impedendone la riemersione per la respirazione e causandone la morte per annegamento. 
+Questo è soprattutto vero per alcuni attrezzi da pesca abbandonati o persi in mare, come lunghe lenze e reti.  
+Infine molti individui adulti sono vittima di bycatch, cioè la cattura accidentale delle specie durante l’attività di pesca. 
+Reti a strascico, da posta e palangari causano annegamento e lesioni spesso mortali. In Italia, come a livello globale, 
+proprio le attività di pesca rappresentano la minaccia maggiore per le tartarughe marine, con più di 24.000 catture annuali. </p>
+</section>
+
+<section>
+<img src="aree-3.jpg" alt="Torta" height="414" width="650">
+</section>
+
+
+

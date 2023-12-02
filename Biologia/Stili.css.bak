@@ -101,6 +101,5 @@
    } 
  
 .animals{ 
-	overflow: hidden;
    display: list-item;     
   }  

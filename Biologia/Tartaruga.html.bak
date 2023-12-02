@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!-- questo è un commento-->
+<title>The BioW|Tartarughe Marine</title>
+<link rel="stylesheet" type="text/css" href="stile.css">
+
+<section>
+<div class="barraNaV">
+<h1>Tartarughe</h1> <a href="Biologia.html"><img src ="elicadeldna.jpg" height="80" width="80"></a>
+</div>
+</section>
+
+<section>
+<!-- questo è un commento-->
+<h2>Intro</h2>
+<p>La tartaruga marina comune (Caretta caretta) è la specie più diffusa nel Mediterraneo, 
+ma sono presenti anche altre specie, tra cui, la tartaruga verde (Chelonia mydas) e, 
+sebbene più rara, la tartaruga liuto (Dermochelys coriacea). 
+In totale si contano sette specie di tartarughe marine distribuite nella fascia tropicale
+e temperata dei mari del mondo e sono tutte a rischio di estinzione, 
+minacciate dalla cattura accidentale, degradazione dell’habitat, disturbo antropico e dai cambiamenti climatici..</p>
+</section>
+
+<section>
+<img src="aree-3.jpg" alt="Torta" height="414" width="650">
+</section>
+
+
+<section>
+<h2>ABC della specie</h2>
+<p>La tartaruga comune è una specie carnivora che si nutre di meduse, pesci, crostacei e molluschi. 
+Gli individui attraversano nel corso della vita due diverse fasi ecologiche: nei primissimi anni di vita, 
+per le loro ridotte capacità di immersione, frequentano la zona superficiale del mare aperto e, successivamente, si spostano anche verso i fondali bassi.  
+
+Dopo l’accoppiamento, che avviene in acqua, le femmine di tartaruga comune depongono le uova su una spiaggia tra maggio e agosto. 
+Le uova sono incubate dal calore del suolo per circa un paio di mesi. 
+La temperatura determina il sesso: uova che si trovano a temperature maggiori di 29°C daranno origine alle femmine, 
+mentre al di sotto di tale temperatura saranno maschi. 
+
+La tartaruga marina comune è una specie diffusa tanto nelle acque degli oceani Atlantico, Indiano e Pacifico quanto nel bacino del Mediterraneo. 
+In particolare, nel Mediterraneo, i siti di deposizione delle uova sono localizzati soprattutto nella parte orientale: Grecia, Turchia, Cipro, Libia. 
+In Italia, solo la tartaruga comune nidifica regolarmente lungo le coste meridionali. 
+Negli ultimi cinque anni (2016-2021) è stato registrato un aumento nel numero dei nidi che, tuttavia, 
+rappresentano solo alcune decine di unità dei circa 8 mila dell’intero Mediterraneo. 
+I mari intorno all’Italia invece rivestono una grande importanza per la popolazione di Caretta caretta del bacino. 
+Il Mar Adriatico, per esempio, rappresenta un’importante area di alimentazione per questa specie. </p>
+</section>
+
+<section>
+<h2>2 Curiosità</h2>
+<p>Una tartaruga marina comune può vivere raggiungere in natura fino a 80 anni.
+La maturità sessuale, a seconda degli individui, varia intorno ai 20-30 anni e la sua attività riproduttiva dura circa 10 anni. 
+
+Un nido contiene mediamente un centinaio di uova che si schiudono dopo un periodo di 45-70 giorni. 
+I piccoli possono impiegare fino a una settimana per raggiungere la superficie. 
+Durante questo tragitto i piccoli memorizzano informazioni che utilizzeranno da adulti, dopo 20-30 anni, 
+per tornare a quella stessa spiaggia per riprodursi.</p> 
+</section>
